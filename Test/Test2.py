@@ -1,0 +1,5 @@
+f=open('data.txt','r')
+f=open('data.txt','w')
+print(f.readable())
+print(f.writable())
+f.close()
